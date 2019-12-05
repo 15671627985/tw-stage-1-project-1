@@ -1,0 +1,417 @@
+body {
+    background-color: black;
+    width: 95%;
+    margin: auto;
+}
+
+.header {
+    background: url(./images/starfield-banner.jpg);
+    position: fixed;
+    width: 95%;
+}
+
+/* .header .logo-link {
+    padding: 10px;
+} */
+
+.head-logo {
+    margin: 20px;
+} 
+.head-navigation {
+    position: absolute;
+    display: inline-block;
+    width: 80%;
+    height: 100px;
+    margin-top: 1%;
+    margin-left: 2%;
+} 
+
+.search-box {
+    position: absolute;
+    margin-left: 1%;
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    background-color: #555555;
+    
+}
+.search-text {
+    position: absolute;
+    color: #767676;
+    line-height: 50px;
+    font-size: 20px;
+    margin-left: 10%;
+    display: inline-block;
+}
+.search-icon {
+    position: absolute;
+    margin-left: 70%;
+    display: inline-block;
+    width: 50px;
+}
+.share-icon {
+  position: absolute;
+  margin-left: 15%;
+  display: inline-block;
+  width: 50px;
+
+}
+
+.Missions,
+.Galleries,
+.NASA-TV,
+.Fellow-NASA,
+.Downloads,
+.About,
+.NASA-Audiences {
+    display: inline-block;
+    margin-top: 0.4%;
+    padding-top: 0.5%;
+    padding-right: 1%;
+    padding-bottom: 0.5%;
+    margin-left: 0.5%;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border: 2px solid gray;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+}
+
+.Missions {
+    margin-left: 10%;
+}
+.NASA-Audiences {
+    border-right: none;
+}
+
+.navigation-bottom {
+    display: inline-block;
+    margin-top: 1%;
+    height: 40%;
+    width: 96%;
+    background-color: gray;
+}
+
+.Humans,
+.Moon,
+.Earth,
+.Space,
+.Flight,
+.Solar,
+.Education,
+.History,
+.Benefits{
+    display: inline-block;
+    margin-left: 1%;
+    margin-top: 0.8%;
+    color: white;
+    border-right: 2px solid rgb(173, 164, 148);
+    padding-right: 1%;
+
+}
+
+.Benefits {
+    border-right: none;
+}
+
+.content {
+  position: absolute;
+  margin-top: 5%;
+  width: 95%;
+  z-index: -1;
+}
+.body-top {
+    width: 100%;
+}
+
+.gray-earth {
+  position: relative;
+  width: 48%;
+  height: 700px;
+  background: url(./images/pia21924-16.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+}
+.dawn {
+    position: absolute;
+    margin-top: 620px;
+    background-color:#678DBA;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.dawn-text , .rocket-text{
+    background-color: #D2D2D2;
+    position: absolute;
+    margin-top: 660px;
+    width: 99%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 1%;
+}
+.rocket-text {
+    margin-top: 310px;
+}
+
+.body-top-right {
+    position: absolute;
+    margin-left: 1%;
+    display: inline-block;
+    width: 50%;
+    height: 700px;
+}
+.green-earth {
+  position: relative;
+  float: left;
+  background: url(./images/mollweide_cycle.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 350px;
+  
+}
+.climate {
+    position: absolute;
+    margin-top: 230px;
+    background-color:#678DBA;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.climate-text {
+    background-color: #DBE9F7;
+    position: absolute;
+    margin-top: 270px;
+    width: 98%;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 2%;
+    padding-top: 11px;
+    padding-bottom: 5px;
+}
+.self-text {
+    margin-left: 2%;
+    float: left;
+    width: 47.5%;
+    height: 50%;
+    background-color: #45709A;
+}
+.nasa-events {
+    margin-top: 20%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    color: white;
+    padding: 0%;
+}
+.white-line-top {
+    margin-top: 0.1%;
+    color: white;
+    width: 95%;
+}
+
+.events-text {
+    color: white;
+    font-family: "Titillium Web" ;
+    padding: 0 1%;
+    margin-top: 2%;
+}
+
+.white-line-bottom {
+  margin-top: 30%;
+  margin-bottom: 0;
+  color: white;
+  width: 95%;
+
+}
+
+.nasa-events-link {
+  margin: 1% auto;
+  padding: 0 2%;
+  color: white;
+  font-size: 15px;
+}
+
+.rocket {
+  float: left;
+  height: 48.35%;
+  margin-top: 1%;
+  background: url(./images/s69-39961.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.body-center,
+.body-bottom {
+    margin-top: 0.8%;
+    width: 100%;
+}
+
+.stars {
+    float: left;
+    background: url(./images/ssc2017-14a1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 28%;
+    height: 390px;
+}
+.image-stars,.asteroids {
+    position: absolute;
+    margin-top: 310px;
+    background-color:#678DBA;
+    width: 230px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.asteroids {
+    width: 130px;
+}
+.image-text, .asteroids-text {
+    background-color: #D2D2D2;
+    position: absolute;
+    margin-top: 350px;
+    width: 27%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 1%;
+
+}
+.asteroids-text {
+    width: 39%;
+}
+
+.gif-picture {
+    float: left;
+    background: url(./images/pia22556-16.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 390px;
+    margin-left: 1%;
+}
+.vodio {
+    width: 28%;
+    height: 390px;
+    display: inline-block;
+    margin-left: 1%;
+}
+
+.big-logo {
+    float: left;
+    background: url(./images/nasa_logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 28%;
+    height: 400px;
+}
+.about-nasa, .juno, .cassini, .fermi {
+    position: absolute;
+    margin-top: 280px;
+    background-color:#678DBA;
+    width: 230px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.juno ,.cassini,.fermi{
+    width: 100px;
+} 
+
+.nasa-text,.juno-text,.cassini-text,.fermi-text {
+    background-color: #D2D2D2;
+    position: absolute;
+    margin-top: 320px;
+    width: 27%;
+    height: 80px;
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 1%;
+}
+.juno-text,.cassini-text {
+    width: 19%;
+}
+
+.fire,.flyer,.telescope {
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 400px;
+    margin-left: 1%;
+}
+
+.fire {
+    background: url(./images/io-home.gif);
+}
+.flyer {
+    background: url(./images/cassini20170809.jpg);
+}
+.telescope {
+    background: url(./images/fermiicecube_as.jpg);
+    width: 28%;
+}
+
+.more {
+    float: left;
+    margin-top: 3%;
+    width: 99%;
+    height: 60px;
+    background-color: #1D4288;
+    text-align: center;
+    color: #F8FFFF;
+    font-size: x-large;
+    line-height: 60px;
+}
+
+.footer {
+  float: left;
+  margin-top: 2%;
+  width: 100%;
+  margin-bottom: 2%;
+  height: 180px;
+}
+
+.bottom-logo {
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 1%;
+    background: url(/images/nasa-logo.svg);
+    background-repeat: no-repeat;
+    width: 7%;
+    height: 100px;
+}
+
+.bottom-text {
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 1%;
+    color: white;
+    font-size: 1em;
+    
+}
+.bottom-navigation {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 8%;
+    color: #5D7FB9;
+    display: inline-block;
+}
